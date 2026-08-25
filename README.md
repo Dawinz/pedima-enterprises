@@ -61,15 +61,23 @@ PHP **7.4+ or 8.x** is enough. Pretty URLs (`/contact`) need Apache `mod_rewrite
 
 ## Host on cPanel — Git Version Control
 
-If your cPanel has **Git Version Control**:
+The GitHub repo is **private**, so cPanel must use **SSH**, not HTTPS.
 
-1. In cPanel → **Git Version Control** → **Create**.
-2. Clone URL: the GitHub repo HTTPS URL.
-3. Repository path: a folder **outside** `public_html` is fine (for example `~/repos/pedima-enterprises`).
-4. After clone, copy (or deploy) the live files into `public_html` as in the list above.
-5. Later updates: pull in Git Version Control, then copy the changed files into `public_html` again.
+1. In cPanel open **SSH Access** → generate a key **with no passphrase** → **Authorize** it → **View/Download** the **public** key.
+2. On GitHub: https://github.com/Dawinz/pedima-enterprises/settings/keys → **Add deploy key** → paste the public key. Read-only is enough.
+3. In **Git Version Control** → **Create**, fill:
 
-If GitHub is private, create a **Personal Access Token** and use it as the password when cPanel asks for Git credentials.
+   - **Clone a Repository:** on
+   - **Clone URL:** `ssh://git@github.com/Dawinz/pedima-enterprises.git`
+   - **Repository Path:** `/home/pedimaco/pedima-enterprises`
+
+   Do **not** set the path to `public_html`. That folder is the live site; Git should live beside it.
+4. Click **Create**.
+5. Open the repo → **Pull or Deploy** → **Deploy HEAD Commit**.
+
+`.cpanel.yml` copies the site files into `/home/pedimaco/public_html/`.
+
+Later updates: pull from remote, then deploy again.
 
 ## After it is live
 
