@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pedimaco/public_html/
+    - /bin/cp -f .htaccess $DEPLOYPATH
+    - /bin/cp -f index.php contact.php 404.php robots.txt sitemap.xml favicon.png $DEPLOYPATH
+    - /bin/cp -f about.php huduma.php news.php solutions.php tariffs.php $DEPLOYPATH
+    - /bin/cp -rf css js assets includes $DEPLOYPATH
