@@ -13,6 +13,8 @@ return [
 
     'whatsapp_primary' => '255626421887',
     'whatsapp_primary_display' => '0626 421 887',
+    'whatsapp_tariffs' => '255613100100',
+    'whatsapp_tariffs_display' => '0613 100 100',
 
     'address_name' => 'Pedima Enterprises',
     'address_line' => 'Tegeta Kibaoni, Bagamoyo Rd',

@@ -219,8 +219,8 @@ $months = [
                 <p class="kicker">Tariffs</p>
                 <h2 data-sw="Bei na tariffs" data-en="Rates and tariffs">Bei na tariffs</h2>
                 <p data-sw="Hatuchapishi jedwali la bei hapa kwa sababu viwango vinaweza kubadilika. Wasiliana nasi ili upate tariffs za sasa." data-en="We do not publish a rate table here because charges can change. Contact us for current tariffs.">Hatuchapishi jedwali la bei hapa kwa sababu viwango vinaweza kubadilika. Wasiliana nasi ili upate tariffs za sasa.</p>
-                <a class="btn btn-primary" href="<?= htmlspecialchars($waPrimary, ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener noreferrer">
-                    WhatsApp <?= htmlspecialchars($config['whatsapp_primary_display'], ENT_QUOTES, 'UTF-8') ?>
+                <a class="btn btn-primary" href="https://wa.me/<?= htmlspecialchars($config['whatsapp_tariffs'], ENT_QUOTES, 'UTF-8') ?>" target="_blank" rel="noopener noreferrer">
+                    WhatsApp <?= htmlspecialchars($config['whatsapp_tariffs_display'], ENT_QUOTES, 'UTF-8') ?>
                 </a>
             </div>
         </div>
