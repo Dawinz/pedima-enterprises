@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 90" fill="none">
+  <path fill="#ED1C24" d="M48 70c-10-18-8-34 8-48 2 8 2 16-2 24 8-10 18-14 28-12-12 8-20 22-18 36-6 2-12 2-16 0z"/>
+  <path fill="#ED1C24" d="M78 28c8 4 14 14 14 26 0 10-6 18-16 20 12-2 22-12 22-26 0-12-8-22-20-26z"/>
+  <text x="118" y="42" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ED1C24">airtel</text>
+  <text x="118" y="68" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#ED1C24">money</text>
+</svg>
