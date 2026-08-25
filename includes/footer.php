@@ -2,7 +2,7 @@
     <div class="container footer-grid">
         <div class="footer-brand">
             <a href="index.php" aria-label="Pedima Enterprises — nyumbani">
-                <img class="footer-logo" src="assets/logo/pedima-white-trans.png" alt="PEDIMA" width="180" height="38">
+                <img class="footer-logo" src="assets/logo/pedima-white-trans.png" alt="PEDIMA" width="180" height="39">
             </a>
             <p class="footer-tag" data-sw="Karibu kwenye familia kubwa. Line ya uwakala na Lipa Namba — Tanzania Nzima." data-en="Welcome to the big family. Agent lines and Lipa numbers — across Tanzania.">Karibu kwenye familia kubwa. Line ya uwakala na Lipa Namba — Tanzania Nzima.</p>
         </div>

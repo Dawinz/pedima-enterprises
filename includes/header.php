@@ -78,7 +78,7 @@ $networksById = $config['brands'];
 <header class="site-header" id="top">
     <div class="container header-inner">
         <a class="logo" href="index.php" aria-label="Pedima Enterprises — nyumbani">
-            <img src="assets/logo/pedima-white-trans.png" alt="PEDIMA" width="168" height="35">
+            <img src="assets/logo/pedima-white-trans.png" alt="PEDIMA" width="168" height="36">
         </a>
         <nav class="nav" id="site-nav" aria-label="Main menu">
             <?php $home = $page === 'home' ? '' : 'index.php'; ?>

@@ -60,7 +60,7 @@ ul { margin: 0; padding: 0; list-style: none; }
     gap: 1.2rem;
 }
 .logo { justify-self: start; }
-.logo img { height: 26px; width: auto; display: block; }
+.logo img { height: 28px; width: auto; display: block; }
 .nav {
     display: flex;
     align-items: center;
@@ -547,7 +547,7 @@ a.contact-value:hover { color: var(--orange); }
     padding-bottom: 1.6rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.footer-logo { height: 24px; width: auto; margin-bottom: 0.85rem; display: block; }
+.footer-logo { height: 26px; width: auto; margin-bottom: 0.85rem; display: block; }
 .footer-tag {
     margin: 0;
     max-width: 36ch;
