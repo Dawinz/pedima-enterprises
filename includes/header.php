@@ -9,8 +9,8 @@ $titles = [
     'contact' => 'Wasiliana nasi | Pedima Enterprises, Tegeta Kibaoni',
 ];
 $descriptions = [
-    'home' => 'Karibu tukupatie line ya uwakala bure kabisa ndani ya masaa 24. Mitandao yote ya simu Tanzania. WhatsApp 0626 421 887.',
-    'contact' => 'Wasiliana na Pedima Enterprises, Tegeta Kibaoni, Bagamoyo Rd, Dar es Salaam. WhatsApp 0626 421 887.',
+    'home' => 'Karibu tukupatie line ya uwakala bure kabisa ndani ya masaa 24. Mitandao yote ya simu Tanzania. WhatsApp 0613 100 100.',
+    'contact' => 'Wasiliana na Pedima Enterprises, Tegeta Kibaoni, Bagamoyo Rd, Dar es Salaam. WhatsApp 0613 100 100.',
 ];
 $title = $titles[$page] ?? $titles['home'];
 $description = $descriptions[$page] ?? $descriptions['home'];
@@ -67,7 +67,7 @@ $networksById = $config['brands'];
         'contactPoint' => [[
             '@type' => 'ContactPoint',
             'contactType' => 'customer service',
-            'telephone' => '+255626421887',
+            'telephone' => '+255613100100',
             'availableLanguage' => ['sw', 'en'],
         ]],
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>

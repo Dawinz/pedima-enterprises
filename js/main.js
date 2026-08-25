@@ -48,7 +48,7 @@
             const need = document.getElementById("need").value;
             const message = document.getElementById("message").value.trim();
             const text = "Habari Pedima Enterprises, naitwa " + name + ". Nahitaji: " + need + ". " + message;
-            const wa = form.getAttribute("data-wa") || "255626421887";
+            const wa = form.getAttribute("data-wa") || "255613100100";
             window.open("https://wa.me/" + wa + "?text=" + encodeURIComponent(text), "_blank", "noopener");
         });
     }
